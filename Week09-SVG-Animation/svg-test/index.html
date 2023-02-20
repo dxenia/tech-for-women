@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Test Page</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <section>
+        <!-------(practice)------->
+        <svg width="240" height="240" viewbox="0 0 240 240" fill="none" xmlns="https://www.w3.org/2000/svg">
+            <circle cx="110" cy="110" r="100" stroke-width="20" fill="white" stroke="green"/>
+            <polyline points="70,120 100,165 150,80" stroke="green" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"></polyline>
+        </svg>
+        <!--SVG ON HTML-->
+        <svg width="240" height="240" viewbox="0 0 240 240" fill="none" xmlns="https://www.w3.org/2000/svg">
+            <circle cx="100" cy="100" r="100" fill="red"/>
+            <line x1="60" y1="60" x2="140" y2="140" stroke="white" stroke-width="10" />
+            <line x1="140" y1="60" x2="60" y2="140" stroke="white" stroke-width="10" />
+        </svg>
+    </section>
+        <!--SVG LINKS TO EXTERNAL FILE-->
+    <section>
+        <svg class="credit-card-img">
+            <use xlink:href="images/credit-card.svg#credit-card"></use>
+        </svg>
+    </section>
+ 
+</body>
+</html>

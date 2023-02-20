@@ -1,0 +1,113 @@
+body {
+    background-color: #FAA307;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    min-height: 100vh;
+    min-width: 100vh;
+    align-content: center;
+    margin-left: 146px;
+    gap: 20px;
+}
+
+.container-one {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 25px;
+    width: 273px;
+    height: 220px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #03071E;
+}
+
+.card-one {
+    width:  50px;
+    height: 50px;
+    background-color: #748CAB;
+    border-radius: 25px;
+}
+
+.container-two {
+    display: flex;
+    flex-wrap: wrap-reverse; 
+    align-content: flex-start;
+    justify-content: flex-end;
+    gap: 25px;
+    width: 273px;
+    height: 220px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #6A040F;
+}
+
+.card-two {
+    width:  50px;
+    height: 50px;
+    background-color: #748CAB;
+    border-radius: 25px;
+}
+
+.container-three {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    gap: 25px;
+    width: 273px;
+    height: 220px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #03071E;
+}
+
+.card-three {
+    width:  50px;
+    height: 50px;
+    background-color: #748CAB;
+    border-radius: 50px;
+}
+
+.container-four {
+    display: flex;
+    flex-wrap: wrap; 
+    align-content: space-around;
+    justify-content: space-between;
+    gap: 25px;
+    width: 273px;
+    height: 220px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #6A040F;
+}
+
+.card-four {
+    width:  50px;
+    height: 50px;
+    background-color: #748CAB;
+    border-radius: 25px;
+}
+
+.container-five {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 25px;
+    width: 273px;
+    height: 220px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #03071E;
+}
+
+.card-five {
+    width:  50px;
+    height: 50px;
+    background-color: #748CAB;
+    border-radius: 25px;
+}

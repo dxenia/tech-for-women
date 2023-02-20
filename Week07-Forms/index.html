@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duck Form</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="screen">
+        <form class="form" autocomplete="off">
+            <div class="submit-name">
+                <label for="name" class="label">Full Name</label>
+                <br>
+                <input type="text" name="name" id="name" class="input-field">
+            </div>
+            <div class="submit-email">
+                <label for="email" class="label">Email</label>
+                <br>
+                <input type="email" name="email" id="email" placeholder=" Your Email" class="input-field">
+            </div>
+            <div class="submit-topic">
+                <label for="select" class="label">Message Regarding</label>
+                <br>
+                <i class="fas fa-caret-down select-icon"></i>
+                <select name="topic" id="topic" class="input-field">
+                    <option value="duck"> Duck</option>
+                    <option value="chicken"> Chicken</option>
+                    <option value="pigeon"> Pigeon</option>
+                </select>
+            </div>
+            <div class="submit-message">
+                <label for="message" class="label">Message</label>
+                <br>
+                <input type="text" name="name" id="message" placeholder=" Your Message" class="input-field">
+            </div>
+            <div class="submit-urgency">
+                <h3>Urgency:</h3>
+                <label for="urgent" class="checkbox-label">
+                    <input type="checkbox" id="urgent">
+                    <span class="checkbox-custom">Urgent</span>
+                </label>
+                <br>
+                <label for="not-urgent" class="checkbox-label">
+                    <input type="checkbox">
+                    <span class="checkbox-custom">Not Urgent</span>
+                </label>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+        <section class="side-section">
+            <img src="images/duck-img.png" alt="Duck" class="img">
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,124 @@
+body { 
+    max-width: 1440px;
+    max-height: 900px;
+    width: 100%;
+    background-color: #9DBEBB;
+}
+
+.screen {
+    display: flex;
+    justify-content: space-between;
+    background-color: #BE0909;
+    max-width: 1000px;
+    min-height: 750px;
+    margin-left: 243px;
+    margin-right: 243px;
+    margin-top: 153px;
+    margin-bottom: 153px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    gap: 30px;
+    height: 100%;
+    margin-left: 65px;
+    margin-top: 64px;
+    max-width: 954px;
+    min-height: 594px;
+}
+
+
+label, input, #topic, h3, #urgent, #not-urgent {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FEFFFF;
+}
+
+label, h3 {
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+input, #topic {
+    letter-spacing: 0.3em;
+}
+
+.input-field {
+    background-color: #BE0909;
+    height: 51px;
+    border-color: #9DBEBB;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.input-field::placeholder {
+    color: white;
+}
+
+.submit-name, .submit-email, .submit-topic, .submit-message, .submit-urgency {
+    height: 72px;
+}
+
+#name, #message {
+    max-width: 400px;
+}
+
+#email, #topic {
+    max-width: 160px;
+}
+
+#topic:hover {
+    background-color: #FFB039;
+    cursor: pointer;
+}
+
+.checkbox-label input {
+    cursor: pointer;
+}
+
+button {
+    width: 202px;
+    height: 48px;
+    background-color: #468189;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 40px;
+    border-style: none;
+    margin-left: 99px;
+    margin-top: 60px;
+    
+}
+
+button:hover {
+    background-color: #FFB039;
+    cursor: pointer;
+}
+
+.side-section {
+    display: flex;
+    align-content: flex-end;
+    max-width: 345px;
+    background-color: #FFB039;
+}
+
+.img {
+    display: flex;
+    margin-left: -277px; 
+    max-width: 663px;
+    max-height: 603px;
+}
